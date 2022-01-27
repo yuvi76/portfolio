@@ -27,7 +27,7 @@
     "reactstrap": "^8.2.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "three": "^0.114.0"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
