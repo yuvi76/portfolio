@@ -20,7 +20,7 @@ class About extends Component {
 
                         {/* <!-- image --> */}
                         <div className="image">
-                            <img src={Proimg} alt="" />
+                            <img src={Proimg} alt="Yuvraj Upadhyay" />
                         </div>
 
                         {/* <!-- desc --> */}
@@ -28,7 +28,7 @@ class About extends Component {
                             <p>Hello! I’m Yuvraj Upadhyay. I have rich experience in web site building, also I am good at backend app. I would love talk with you and we can share our unique ideas with each other.</p>
                             <div className="info-list">
                                 <ul>
-                                    <li><strong>Age:</strong> 24</li>
+                                    <li><strong>Age:</strong> 25</li>
                                     <li><strong>Residence:</strong> INDIA</li>
                                     <li><strong>Address:</strong> Ahmedabad</li>
                                     <li><strong>Phone:</strong> <a href="tel:+917600104483">+91 7600104483</a></li>
@@ -46,53 +46,6 @@ class About extends Component {
                         <div className="clear"></div>
                     </div>
                 </div>
-
-                {/* <div className="section service" id="section-services">
-                    <div className="content">
-
-                        <div className="title">
-                            <div className="title_inner">Services</div>
-                        </div>
-
-                        <div className="service-items">
-
-                            <div className="service-col">
-                                <div className="service-item content-box">
-                                    <div className="icon"><FontAwesomeIcon icon={faCode} /></div>
-                                    <div className="name">Web Development</div>
-                                </div>
-                            </div>
-
-                            <div className="service-col">
-                                <div className="service-item content-box">
-                                    <div className="icon"><FontAwesomeIcon icon={faMusic} /></div>
-                                    <div className="name">Music Writing</div>
-                                    <div className="text">Music copying, writing, creating, transcription, arranging and services.</div>
-                                </div>
-                            </div>
-
-                            <div className="service-col">
-                                <div className="service-item content-box">
-                                    <div className="icon"><FontAwesomeIcon icon={faGamepad} /></div>
-                                    <div className="name">Game Development</div>
-                                    <div className="text">Developing memorable and unique mobile android, ios and video games.</div>
-                                </div>
-                            </div>
-
-                            <div className="service-col">
-                                <div className="service-item content-box">
-                                    <div className="icon"><FontAwesomeIcon icon={faCamera} /></div>
-                                    <div className="name">Photography</div>
-                                    <div className="text">Our in-house photography services team made up of professional photographers.</div>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                        <div className="clear"></div>
-                    </div>
-                </div> */}
 
                 <div className="section resume" id="section-history">
                     <div className="content">
@@ -140,7 +93,13 @@ class About extends Component {
                                 <div className="resume-items">
 
                                     <div className="resume-item content-box active">
-                                        <div className="date">2019 - Present</div>
+                                        <div className="date">2021 - Present</div>
+                                        <div className="name">MERN Stack Developer - Yudiz.</div>
+                                        <div className="text"></div>
+                                    </div>
+
+                                    <div className="resume-item content-box active">
+                                        <div className="date">2019 - 2021</div>
                                         <div className="name">Blockchain Developer - Yudiz.</div>
                                         <div className="text">Collaborate with creative and development teams on the execution of ideas.</div>
                                     </div>
@@ -274,9 +233,6 @@ class About extends Component {
                                 </li>
                                 <li>
                                     <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Solidity</div>
-                                </li>
-                                <li>
-                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Hyperledger</div>
                                 </li>
                                 <li>
                                     <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Smart Contract</div>

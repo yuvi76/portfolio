@@ -12,7 +12,7 @@ class Home extends Component {
                 <div className="section started" id="section-started">
 
                     {/* <!-- background --> */}
-                    <div className="video-bg jarallax" style={{ backgroundImage: `url(${bgimg})` }}>
+                    <div className="video-bg jarallax" style={{ backgroundImage: `url(${bgimg})` }} atl="Yuvraj Upadhyay">
                         <div className="video-bg-mask"></div>
                         <div className="video-bg-texture" id="grained_container"></div>
                     </div>
@@ -22,7 +22,7 @@ class Home extends Component {
                         <div className="vertical-center">
                             <div className="started-content">
                                 <h1 className="h-title">
-                                    Hello, I’m <strong>Yuvraj Upadhyay</strong> Blockchain Developer At Yudiz Solutions.
+                                    Hello, I’m <strong>Yuvraj Upadhyay</strong> MERN Stack Developer At Yudiz Solutions.
                                 </h1>
                                 <div className="h-subtitle typing-subtitle">
                                     <Typing loop={true} hideCursor={true}>
