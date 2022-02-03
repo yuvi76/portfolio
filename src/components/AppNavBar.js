@@ -46,10 +46,10 @@ class AppNavbar extends Component {
 										<nav className="navbar navbar-default navbar-static-top">
 											<ul className="nav nav-pills">
 												{/* Check the Css section for the selector */}
-												<li><NavLink to="/" activeClassName="active" onClick={() => {this.Closenav() }}>Home</NavLink></li>
-												<li><NavLink to="/about" activeClassName="active" onClick={() => {this.Closenav() }}>Resume</NavLink></li>
-												<li><NavLink to="/work" activeClassName="active" onClick={() => {this.Closenav() }}>Work</NavLink></li>
-												<li><NavLink to="/contact" activeClassName="active" onClick={() => {this.Closenav() }}>Contact</NavLink></li>
+												<li><NavLink to="/portfolio/home" activeClassName="active" onClick={() => {this.Closenav() }}>Home</NavLink></li>
+												<li><NavLink to="/portfolio/about" activeClassName="active" onClick={() => {this.Closenav() }}>Resume</NavLink></li>
+												<li><NavLink to="/portfolio/work" activeClassName="active" onClick={() => {this.Closenav() }}>Work</NavLink></li>
+												<li><NavLink to="/portfolio/contact" activeClassName="active" onClick={() => {this.Closenav() }}>Contact</NavLink></li>
 											</ul>
 										</nav>
 									</div>
