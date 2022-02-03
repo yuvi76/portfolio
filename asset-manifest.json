@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.33a2d7d8.chunk.css",
-    "main.js": "/portfolio/static/js/main.fbe0e91c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fbe0e91c.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.fae58d0a.chunk.js": "/portfolio/static/js/2.fae58d0a.chunk.js",
-    "static/js/2.fae58d0a.chunk.js.map": "/portfolio/static/js/2.fae58d0a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bd636b4b.chunk.css",
+    "main.js": "/portfolio/static/js/main.ea97e6e3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ea97e6e3.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.69cdcb5e.chunk.js": "/portfolio/static/js/2.69cdcb5e.chunk.js",
+    "static/js/2.69cdcb5e.chunk.js.map": "/portfolio/static/js/2.69cdcb5e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4d4fc85ba25dad59ea1f1207e4708779.js": "/portfolio/precache-manifest.4d4fc85ba25dad59ea1f1207e4708779.js",
+    "precache-manifest.eede9ca797ada9831c898e6054b07af7.js": "/portfolio/precache-manifest.eede9ca797ada9831c898e6054b07af7.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.33a2d7d8.chunk.css.map": "/portfolio/static/css/main.33a2d7d8.chunk.css.map",
-    "static/js/2.fae58d0a.chunk.js.LICENSE": "/portfolio/static/js/2.fae58d0a.chunk.js.LICENSE",
+    "static/css/main.bd636b4b.chunk.css.map": "/portfolio/static/css/main.bd636b4b.chunk.css.map",
+    "static/js/2.69cdcb5e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.69cdcb5e.chunk.js.LICENSE.txt",
     "static/media/CryptoCurrency-Is-Proving-The-Best-Gauge-Of-The-Coronavirus-Outbreak-After-China-Stats-Shock.jpg": "/portfolio/static/media/CryptoCurrency-Is-Proving-The-Best-Gauge-Of-The-Coronavirus-Outbreak-After-China-Stats-Shock.845e7565.jpg",
     "static/media/Mebook-Logo.PNG": "/portfolio/static/media/Mebook-Logo.c8c55cf9.PNG",
     "static/media/bgyuvi.jpg": "/portfolio/static/media/bgyuvi.555ce257.jpg",
@@ -22,9 +22,9 @@
     "static/media/yuvi.jpg": "/portfolio/static/media/yuvi.dbe9ef39.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.44087e9b.js",
-    "static/js/2.fae58d0a.chunk.js",
-    "static/css/main.33a2d7d8.chunk.css",
-    "static/js/main.fbe0e91c.chunk.js"
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.69cdcb5e.chunk.js",
+    "static/css/main.bd636b4b.chunk.css",
+    "static/js/main.ea97e6e3.chunk.js"
   ]
 }
