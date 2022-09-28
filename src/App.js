@@ -5,7 +5,7 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { BrowserRouter, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './css/fontawesome.css';
 
@@ -14,15 +14,17 @@ class App extends Component {
     return (
       <div className="App">
         <BrowserRouter>
-          <div>
+          <>
             <AppNavbar />
-              <Route path="/" render={() => (<Redirect to="/portfolio/home" />)} />
-              <Route path="/portfolio/home" render={props => <Home key={Date.now()} {...props} />} />
-              <Route path="/portfolio/about" render={props => <About key={Date.now()} {...props} />} />
-              <Route path="/portfolio/work" render={props => <Work key={Date.now()} {...props} />} />
-              <Route path="/portfolio/contact" render={props => <Contact key={Date.now()} {...props} />} />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/portfolio/home" element={<Home />} />
+              <Route path="/portfolio/about" element={<About />} />
+              <Route path="/portfolio/work" element={<Work />} />
+              <Route path="/portfolio/contact" element={<Contact />} />
+            </Routes>
             <Footer />
-          </div>
+          </>
         </BrowserRouter>
 
       </div>

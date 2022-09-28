@@ -4,6 +4,7 @@ import b2 from '../images/first-transaction-on-libra-blockchain.jpg';
 import b3 from '../images/building-a-restful-API-with-node.js-and-mongoDB-Atlas.jpg';
 import b4 from '../images/CryptoCurrency-Is-Proving-The-Best-Gauge-Of-The-Coronavirus-Outbreak-After-China-Stats-Shock.jpg';
 import b5 from '../images/Mebook-Logo.PNG';
+import b6 from '../images/BFK-logo.png';
 
 class Work extends Component {
 
@@ -81,6 +82,27 @@ class Work extends Component {
 						</div>
 
 						<div className="title">
+							<div className="title_inner">Project</div>
+						</div>
+
+						<div className="box-items portfolio-items">
+							<ul className="cards">
+								<li className="cards_item">
+									<div className="card">
+										<a href="https://bfkwarzone.com" target="_blank" rel="noopener noreferrer" >
+											<div className="card_image"><img src={b6} alt="blog3" /></div>
+											<div className="card_content">
+												<h2 className="card_title"><center>BFKWARZONE</center></h2>
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div className="clear"></div>
+
+						<div className="title">
 							<div className="title_inner">Website</div>
 						</div>
 
@@ -99,7 +121,7 @@ class Work extends Component {
 								<li className="cards_item">
 									<div className="card">
 										<a href="http://mebookyuvi.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-											<div className="card_image"><img src={b5} alt="blog3" style={{height: "193px"}}/></div>
+											<div className="card_image"><img src={b5} alt="blog3" style={{ height: "193px" }} /></div>
 											<div className="card_content">
 												<h2 className="card_title"><center>MeBook</center></h2>
 											</div>

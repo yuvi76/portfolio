@@ -28,7 +28,7 @@ class About extends Component {
                             <p>Hello! I’m Yuvraj Upadhyay. I have rich experience in web site building, also I am good at backend app. I would love talk with you and we can share our unique ideas with each other.</p>
                             <div className="info-list">
                                 <ul>
-                                    <li><strong>Age:</strong> 25</li>
+                                    <li><strong>Age:</strong> 26</li>
                                     <li><strong>Residence:</strong> INDIA</li>
                                     <li><strong>Address:</strong> Ahmedabad</li>
                                     <li><strong>Phone:</strong> <a href="tel:+917600104483">+91 7600104483</a></li>
@@ -218,6 +218,15 @@ class About extends Component {
                             <ul>
                                 <li>
                                     <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;MongoDB</div>
+                                </li>
+                                <li>
+                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;AWS</div>
+                                </li>
+                                <li>
+                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Docker</div>
+                                </li>
+                                <li>
+                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Elastic Search</div>
                                 </li>
                                 <li>
                                     <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Web Development</div>

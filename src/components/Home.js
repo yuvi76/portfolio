@@ -1,8 +1,8 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
-import Typing from 'react-typing-animation';
 import bgimg from '../images/bgyuvi.jpg';
+import { TypeAnimation } from 'react-type-animation';
 
 import '../css/App.css';
 class Home extends Component {
@@ -25,17 +25,22 @@ class Home extends Component {
                                     Hello, I’m <strong>Yuvraj Upadhyay</strong> MERN Stack Developer At Yudiz Solutions.
                                 </h1>
                                 <div className="h-subtitle typing-subtitle">
-                                    <Typing loop={true} hideCursor={true}>
-                                        <h1 style={{ color: '#fff' }} >I code cool <strong>websites.</strong></h1>
-                                        <Typing.Delay ms={4000} />
-                                        <Typing.Backspace count={30} />
-                                        <h1 style={{ color: '#fff' }}>I develop <strong>Backend apps.</strong></h1>
-                                        <Typing.Delay ms={4000} />
-                                        <Typing.Backspace count={30} />
-                                        <h1 style={{ color: '#fff' }}>I love <strong>NodeJS.</strong></h1>
-                                        <Typing.Delay ms={4000} />
-                                        <Typing.Backspace count={15} />
-                                    </Typing>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        // Same String at the start will only be typed once, initially
+                                        sequence={[
+                                            'I code cool websites.',
+                                            4000,
+                                            'I develop Backend Apps.',
+                                            4000,
+                                            'I love NodeJS.',
+                                            4000,
+                                        ]}
+                                        speed={40} // Custom Speed from 1-99 - Default Speed: 40
+                                        style={{ color: '#fff' }}
+                                        wrapper="h1" // Animation will be rendered as a <span>
+                                        repeat={Infinity} // Repeat this Animation Sequence infinitely
+                                    />
                                 </div>
                                 <span className="typed-subtitle"></span>
                             </div>
