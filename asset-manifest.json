@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c637b945.css",
-    "main.js": "/portfolio/static/js/main.72743213.js",
+    "main.js": "/portfolio/static/js/main.0dfb7597.js",
     "static/media/first-transaction-on-libra-blockchain.jpg": "/portfolio/static/media/first-transaction-on-libra-blockchain.21db9a8505aed46a757a.jpg",
     "static/media/bgyuvi.jpg": "/portfolio/static/media/bgyuvi.041c6a69d73058f9c89d.jpg",
     "static/media/voting1-blog-banner.jpg": "/portfolio/static/media/voting1-blog-banner.a4fd54cd57c0b38363a1.jpg",
@@ -13,10 +13,10 @@
     "static/media/Mebook-Logo.PNG": "/portfolio/static/media/Mebook-Logo.ad08ef55aa2571a7d7a9.PNG",
     "index.html": "/portfolio/index.html",
     "main.c637b945.css.map": "/portfolio/static/css/main.c637b945.css.map",
-    "main.72743213.js.map": "/portfolio/static/js/main.72743213.js.map"
+    "main.0dfb7597.js.map": "/portfolio/static/js/main.0dfb7597.js.map"
   },
   "entrypoints": [
     "static/css/main.c637b945.css",
-    "static/js/main.72743213.js"
+    "static/js/main.0dfb7597.js"
   ]
 }
