@@ -235,6 +235,9 @@ class About extends Component {
                                     <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Website hosting</div>
                                 </li>
                                 <li>
+                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp; Jira</div>
+                                </li>
+                                <li>
                                     <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Blockchain</div>
                                 </li>
                                 <li>
