@@ -93,7 +93,13 @@ class About extends Component {
                                 <div className="resume-items">
 
                                     <div className="resume-item content-box active">
-                                        <div className="date">2022 - Present</div>
+                                        <div className="date">2023 - present</div>
+                                        <div className="name">Sr. Software Engineer - Mindinventory.</div>
+                                        <div className="text"></div>
+                                    </div>
+
+                                    <div className="resume-item content-box active">
+                                        <div className="date">JAN 2022 - Dec 2022</div>
                                         <div className="name">MERN Stack Developer - Yudiz.</div>
                                         <div className="text"></div>
                                     </div>
