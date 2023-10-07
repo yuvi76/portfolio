@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://yuvi76.github.io/portfolio/",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",

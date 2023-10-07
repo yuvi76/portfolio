@@ -28,7 +28,7 @@ class About extends Component {
                             <p>Hello! I’m Yuvraj Upadhyay. I have rich experience in web site building, also I am good at backend app. I would love talk with you and we can share our unique ideas with each other.</p>
                             <div className="info-list">
                                 <ul>
-                                    <li><strong>Age:</strong> 26</li>
+                                    <li><strong>Age:</strong> 28</li>
                                     <li><strong>Residence:</strong> INDIA</li>
                                     <li><strong>Address:</strong> Ahmedabad</li>
                                     <li><strong>Phone:</strong> <a href="tel:+917600104483">+91 7600104483</a></li>
@@ -93,7 +93,13 @@ class About extends Component {
                                 <div className="resume-items">
 
                                     <div className="resume-item content-box active">
-                                        <div className="date">2023 - present</div>
+                                        <div className="date">Jul 2023 - Precent</div>
+                                        <div className="name">Sr. Software Engineer - Bytes Technolab.</div>
+                                        <div className="text"></div>
+                                    </div>
+
+                                    <div className="resume-item content-box active">
+                                        <div className="date">Jan 2023 - Jun 2023</div>
                                         <div className="name">Sr. Software Engineer - Mindinventory.</div>
                                         <div className="text"></div>
                                     </div>
@@ -244,19 +250,10 @@ class About extends Component {
                                     <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp; Jira</div>
                                 </li>
                                 <li>
-                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Blockchain</div>
+                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;NestJs</div>
                                 </li>
                                 <li>
-                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Ethereum</div>
-                                </li>
-                                <li>
-                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Solidity</div>
-                                </li>
-                                <li>
-                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Smart Contract</div>
-                                </li>
-                                <li>
-                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Cryptography</div>
+                                    <div className="name"><FontAwesomeIcon icon={faCheck} style={{ color: '#72ff4b' }} />&nbsp;&nbsp;Graphql</div>
                                 </li>
                             </ul>
                         </div>

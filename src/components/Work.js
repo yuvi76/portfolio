@@ -5,6 +5,7 @@ import b3 from '../images/building-a-restful-API-with-node.js-and-mongoDB-Atlas.
 import b4 from '../images/CryptoCurrency-Is-Proving-The-Best-Gauge-Of-The-Coronavirus-Outbreak-After-China-Stats-Shock.jpg';
 import b5 from '../images/Mebook-Logo.PNG';
 import b6 from '../images/BFK-logo.png';
+import b7 from '../images/dot-logo.webp';
 
 class Work extends Component {
 
@@ -93,6 +94,16 @@ class Work extends Component {
 											<div className="card_image"><img src={b6} alt="blog3" /></div>
 											<div className="card_content">
 												<h2 className="card_title"><center>BFKWARZONE</center></h2>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li className="cards_item">
+									<div className="card">
+										<a href="https://play.google.com/store/apps/details?id=com.a300mind.dotsandboxes" target="_blank" rel="noopener noreferrer" >
+											<div className="card_image"><img src={b7} alt="blog3" /></div>
+											<div className="card_content">
+												<h2 className="card_title"><center>Dots and Boxes</center></h2>
 											</div>
 										</a>
 									</div>

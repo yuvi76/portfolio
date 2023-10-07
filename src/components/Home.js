@@ -22,7 +22,7 @@ class Home extends Component {
                         <div className="vertical-center">
                             <div className="started-content">
                                 <h1 className="h-title">
-                                    Hello, I’m <strong>Yuvraj Upadhyay</strong> MERN Stack Developer At Yudiz Solutions.
+                                    Hello, I’m <strong>Yuvraj Upadhyay</strong> Sr. MERN Stack Developer At Bytes Technolab.
                                 </h1>
                                 <div className="h-subtitle typing-subtitle">
                                     <TypeAnimation
