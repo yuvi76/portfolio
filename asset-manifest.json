@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c637b945.css",
-    "main.js": "/portfolio/static/js/main.259db171.js",
+    "main.js": "/portfolio/static/js/main.a3f9638d.js",
     "static/media/first-transaction-on-libra-blockchain.jpg": "/portfolio/static/media/first-transaction-on-libra-blockchain.21db9a8505aed46a757a.jpg",
     "static/media/bgyuvi.jpg": "/portfolio/static/media/bgyuvi.041c6a69d73058f9c89d.jpg",
     "static/media/voting1-blog-banner.jpg": "/portfolio/static/media/voting1-blog-banner.a4fd54cd57c0b38363a1.jpg",
@@ -9,14 +9,15 @@
     "static/media/CryptoCurrency-Is-Proving-The-Best-Gauge-Of-The-Coronavirus-Outbreak-After-China-Stats-Shock.jpg": "/portfolio/static/media/CryptoCurrency-Is-Proving-The-Best-Gauge-Of-The-Coronavirus-Outbreak-After-China-Stats-Shock.d95dbe43f4f720d202e7.jpg",
     "static/media/BFK-logo.png": "/portfolio/static/media/BFK-logo.484aa5073a2184d3a84b.png",
     "static/media/building-a-restful-API-with-node.js-and-mongoDB-Atlas.jpg": "/portfolio/static/media/building-a-restful-API-with-node.js-and-mongoDB-Atlas.3a08933cac552cb7085e.jpg",
+    "static/media/dot-logo.webp": "/portfolio/static/media/dot-logo.99b412d20e31112a9d82.webp",
     "static/media/logo2.png": "/portfolio/static/media/logo2.9e483f4263f3ebc52a22.png",
     "static/media/Mebook-Logo.PNG": "/portfolio/static/media/Mebook-Logo.ad08ef55aa2571a7d7a9.PNG",
     "index.html": "/portfolio/index.html",
     "main.c637b945.css.map": "/portfolio/static/css/main.c637b945.css.map",
-    "main.259db171.js.map": "/portfolio/static/js/main.259db171.js.map"
+    "main.a3f9638d.js.map": "/portfolio/static/js/main.a3f9638d.js.map"
   },
   "entrypoints": [
     "static/css/main.c637b945.css",
-    "static/js/main.259db171.js"
+    "static/js/main.a3f9638d.js"
   ]
 }
