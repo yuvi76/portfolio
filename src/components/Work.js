@@ -117,30 +117,6 @@ class Work extends Component {
 							<div className="title_inner">Website</div>
 						</div>
 
-						<div className="box-items portfolio-items">
-							<ul className="cards">
-								<li className="cards_item">
-									<div className="card">
-										<a href="https://cmbs.in" target="_blank" rel="noopener noreferrer" >
-											<div className="card_image"><img src={b3} alt="blog3" /></div>
-											<div className="card_content">
-												<h2 className="card_title"><center>CMBS.IN</center></h2>
-											</div>
-										</a>
-									</div>
-								</li>
-								<li className="cards_item">
-									<div className="card">
-										<a href="http://mebookyuvi.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-											<div className="card_image"><img src={b5} alt="blog3" style={{ height: "193px" }} /></div>
-											<div className="card_content">
-												<h2 className="card_title"><center>MeBook</center></h2>
-											</div>
-										</a>
-									</div>
-								</li>
-							</ul>
-						</div>
 						<div className="clear"></div>
 					</div>
 				</div>
