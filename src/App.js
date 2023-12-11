@@ -1,36 +1,24 @@
-import React, { Component } from 'react';
-import AppNavbar from './components/AppNavBar';
-import Home from './components/Home';
-import About from './components/About';
-import Work from './components/Work';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React, { useEffect } from "react";
+import ScrollToTop from "./components/ScrollToTop";
+import AllRoutes from "./router/AllRoutes";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { ToastContainer } from "react-toastify";
 
-import './css/fontawesome.css';
+const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+    });
+  }, []);
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <BrowserRouter>
-          <>
-            <AppNavbar />
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route exact path="/portfolio" element={<Home />} />
-              <Route path="/portfolio/home" element={<Home />} />
-              <Route path="/portfolio/about" element={<About />} />
-              <Route path="/portfolio/work" element={<Work />} />
-              <Route path="/portfolio/contact" element={<Contact />} />
-            </Routes>
-            <Footer />
-          </>
-        </BrowserRouter>
-
-      </div>
-    );
-  }
-}
+  return (
+    <>
+      <ScrollToTop />
+      <AllRoutes />
+      <ToastContainer />
+    </>
+  );
+};
 
 export default App;
