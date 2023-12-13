@@ -1,30 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f7b5aa26.css",
-    "main.js": "/portfolio/static/js/main.3263d0e4.js",
+    "main.js": "/portfolio/static/js/main.42db7edb.js",
     "static/media/blog-4.jpg": "/portfolio/static/media/blog-4.21db9a8505aed46a757a.jpg",
     "static/media/blog-1.webp": "/portfolio/static/media/blog-1.39c269f48daacd881ab3.webp",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/blog-5.jpg": "/portfolio/static/media/blog-5.a4fd54cd57c0b38363a1.jpg",
     "static/media/dark.jpg": "/portfolio/static/media/dark.39ea2161fddba06118f6.jpg",
-    "static/media/casino.png": "/portfolio/static/media/casino.354a76734b501050af88.png",
     "static/media/blog-3.jpg": "/portfolio/static/media/blog-3.d95dbe43f4f720d202e7.jpg",
     "static/media/img-mobile.jpg": "/portfolio/static/media/img-mobile.41ce72e5e087e98454e9.jpg",
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/BFK-logo.png": "/portfolio/static/media/BFK-logo.484aa5073a2184d3a84b.png",
     "static/media/blog-2.jpg": "/portfolio/static/media/blog-2.3a08933cac552cb7085e.jpg",
-    "static/media/bones-club.svg": "/portfolio/static/media/bones-club.d253c4c3677658be019ad9b3b2537d39.svg",
-    "static/media/high-card-bnb.svg": "/portfolio/static/media/high-card-bnb.a3c0d4930303a7db88516e5abc9ff1d4.svg",
     "static/media/404.jpg": "/portfolio/static/media/404.19e523cdb4d4a12db938.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/snapjob.svg": "/portfolio/static/media/snapjob.1f912565bb1ae14cc27569d9b1be6b64.svg",
     "static/media/yuvraj-resume.pdf": "/portfolio/static/media/yuvraj-resume.e71b1c3948bcbb33f673.pdf",
     "static/media/blackjack.png": "/portfolio/static/media/blackjack.4000618737bbb7e4d18f.png",
-    "static/media/ico.png": "/portfolio/static/media/ico.1f2b42893556de90570f.png",
     "static/media/dot-and-boxes.png": "/portfolio/static/media/dot-and-boxes.7d0b05fb2e227f8fb67b.png",
-    "static/media/nftiz.svg": "/portfolio/static/media/nftiz.f1b5c5031d28c7a82dccec48e455f298.svg",
     "index.html": "/portfolio/index.html",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -32,10 +26,10 @@
     "static/media/cancel.svg": "/portfolio/static/media/cancel.17825c74c3c6b6934429010ee3f913fd.svg",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "main.f7b5aa26.css.map": "/portfolio/static/css/main.f7b5aa26.css.map",
-    "main.3263d0e4.js.map": "/portfolio/static/js/main.3263d0e4.js.map"
+    "main.42db7edb.js.map": "/portfolio/static/js/main.42db7edb.js.map"
   },
   "entrypoints": [
     "static/css/main.f7b5aa26.css",
-    "static/js/main.3263d0e4.js"
+    "static/js/main.42db7edb.js"
   ]
 }
