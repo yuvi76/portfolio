@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f7b5aa26.css",
-    "main.js": "/portfolio/static/js/main.42db7edb.js",
+    "main.js": "/portfolio/static/js/main.bbaf78af.js",
     "static/media/blog-4.jpg": "/portfolio/static/media/blog-4.21db9a8505aed46a757a.jpg",
+    "static/media/node-bazzar.png": "/portfolio/static/media/node-bazzar.a42c1c3b719e05a1e445.png",
     "static/media/blog-1.webp": "/portfolio/static/media/blog-1.39c269f48daacd881ab3.webp",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/blog-5.jpg": "/portfolio/static/media/blog-5.a4fd54cd57c0b38363a1.jpg",
+    "static/media/twitch.jpeg": "/portfolio/static/media/twitch.28032c510f0a05f2c89d.jpeg",
     "static/media/dark.jpg": "/portfolio/static/media/dark.39ea2161fddba06118f6.jpg",
     "static/media/blog-3.jpg": "/portfolio/static/media/blog-3.d95dbe43f4f720d202e7.jpg",
     "static/media/img-mobile.jpg": "/portfolio/static/media/img-mobile.41ce72e5e087e98454e9.jpg",
@@ -19,6 +21,7 @@
     "static/media/yuvraj-resume.pdf": "/portfolio/static/media/yuvraj-resume.e71b1c3948bcbb33f673.pdf",
     "static/media/blackjack.png": "/portfolio/static/media/blackjack.4000618737bbb7e4d18f.png",
     "static/media/dot-and-boxes.png": "/portfolio/static/media/dot-and-boxes.7d0b05fb2e227f8fb67b.png",
+    "static/media/ImaginAI.jpg": "/portfolio/static/media/ImaginAI.ece34e2f36a94728acc5.jpg",
     "index.html": "/portfolio/index.html",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -26,10 +29,10 @@
     "static/media/cancel.svg": "/portfolio/static/media/cancel.17825c74c3c6b6934429010ee3f913fd.svg",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "main.f7b5aa26.css.map": "/portfolio/static/css/main.f7b5aa26.css.map",
-    "main.42db7edb.js.map": "/portfolio/static/js/main.42db7edb.js.map"
+    "main.bbaf78af.js.map": "/portfolio/static/js/main.bbaf78af.js.map"
   },
   "entrypoints": [
     "static/css/main.f7b5aa26.css",
-    "static/js/main.42db7edb.js"
+    "static/js/main.bbaf78af.js"
   ]
 }
