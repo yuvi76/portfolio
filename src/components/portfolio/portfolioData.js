@@ -4,6 +4,7 @@ import Blackjack from "../../assets/img/portfolio/blackjack.png";
 import NodeBazzar from "../../assets/img/portfolio/node-bazzar.png";
 import Twitch from "../../assets/img/portfolio/twitch.jpeg";
 import ImaginAI from "../../assets/img/portfolio/ImaginAI.jpg";
+import TechnicalQuiz from "../../assets/img/portfolio/tech-quiz.png";
 
 const PortfolioData = [
   // {
@@ -97,6 +98,22 @@ const PortfolioData = [
       },
     ],
   },
+  {
+    id: 6,
+    type: "Technical Quiz",
+    image: TechnicalQuiz,
+    delayAnimation: "500",
+    modalDetails: [
+      {
+        project: "Technical Quiz",
+        technology: "NextJs, Mongodb, Tailwindcss, Open AI",
+        description:
+          "Technical Quiz is a platform for students to practice technical quizzes and get the best AI-generated answers for their questions.",
+        preview: "Preview Link",
+        link: "https://technical-quiz.vercel.app/",
+      },
+    ],
+  }
 ];
 
 export default PortfolioData;
