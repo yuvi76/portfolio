@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f7b5aa26.css",
-    "main.js": "/portfolio/static/js/main.bbaf78af.js",
+    "main.js": "/portfolio/static/js/main.c31f72a0.js",
     "static/media/blog-4.jpg": "/portfolio/static/media/blog-4.21db9a8505aed46a757a.jpg",
     "static/media/node-bazzar.png": "/portfolio/static/media/node-bazzar.a42c1c3b719e05a1e445.png",
     "static/media/blog-1.webp": "/portfolio/static/media/blog-1.39c269f48daacd881ab3.webp",
@@ -21,6 +21,7 @@
     "static/media/yuvraj-resume.pdf": "/portfolio/static/media/yuvraj-resume.e71b1c3948bcbb33f673.pdf",
     "static/media/blackjack.png": "/portfolio/static/media/blackjack.4000618737bbb7e4d18f.png",
     "static/media/dot-and-boxes.png": "/portfolio/static/media/dot-and-boxes.7d0b05fb2e227f8fb67b.png",
+    "static/media/tech-quiz.png": "/portfolio/static/media/tech-quiz.ca97f86ffc4c64715bb6.png",
     "static/media/ImaginAI.jpg": "/portfolio/static/media/ImaginAI.ece34e2f36a94728acc5.jpg",
     "index.html": "/portfolio/index.html",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -29,10 +30,10 @@
     "static/media/cancel.svg": "/portfolio/static/media/cancel.17825c74c3c6b6934429010ee3f913fd.svg",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "main.f7b5aa26.css.map": "/portfolio/static/css/main.f7b5aa26.css.map",
-    "main.bbaf78af.js.map": "/portfolio/static/js/main.bbaf78af.js.map"
+    "main.c31f72a0.js.map": "/portfolio/static/js/main.c31f72a0.js.map"
   },
   "entrypoints": [
     "static/css/main.f7b5aa26.css",
-    "static/js/main.bbaf78af.js"
+    "static/js/main.c31f72a0.js"
   ]
 }
