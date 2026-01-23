@@ -20,11 +20,11 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Portfolio_new.git
+   git clone https://github.com/yuvi76/portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Portfolio_new
+   cd portfolio
    ```
 3. Install dependencies:
    ```bash
