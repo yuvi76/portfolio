@@ -1,0 +1,74 @@
+// Navigation Component
+@use '../utils/variables' as *;
+@use '../utils/breakpoints' as *;
+@use '../shared/typography' as *;
+@use '../shared/layout' as *;
+
+.home__nav {
+  @extend %padding-home;
+  margin-bottom: 6.4rem;
+  display: flex;
+  justify-content: space-between;
+  @extend %description-12;
+  line-height: 1.4;
+
+  &__left,
+  &__right {
+    text-transform: uppercase;
+    justify-content: space-between;
+
+    @include media('>phone') {
+      display: flex;
+    }
+  }
+
+  &__left {
+    max-width: 49rem;
+    width: 100%;
+    margin-right: 5rem;
+
+    @include media('<=phone') {
+      margin-right: 2rem;
+      max-width: unset;
+    }
+  }
+
+  &__right {
+    max-width: 32.5rem;
+    width: 100%;
+
+    @include media('<=phone') {
+      max-width: 17.5rem;
+      width: 100%;
+      margin-left: auto;
+
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .nav {
+    &__name {
+      color: $col-gray;
+    }
+
+    &__folio,
+    &__availability {
+      color: $col-boulder;
+
+      @include media('<=phone') {
+        margin-bottom: 2.4rem;
+
+        br {
+          display: none;
+        }
+      }
+    }
+
+    &__button {
+      flex-shrink: 0;
+      flex-grow: 0;
+    }
+  }
+}

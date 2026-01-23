@@ -1,0 +1,14 @@
+// Home Page Layout
+
+.home {
+  padding: 2.4rem 0;
+  visibility: visible;
+  opacity: 0;
+  animation: fadeInPage 0.6s ease forwards 0.2s;
+}
+
+@keyframes fadeInPage {
+  to {
+    opacity: 1;
+  }
+}

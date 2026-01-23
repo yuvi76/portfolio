@@ -1,0 +1,77 @@
+// Typography Mixins and Placeholders
+@use '../utils/variables' as *;
+@use '../utils/breakpoints' as *;
+
+// Title Sizes
+%title-328 {
+  font-family: $font-bebas;
+  font-size: 30rem;
+  font-weight: 400;
+  line-height: 0.95;
+  text-transform: uppercase;
+
+  @include media('<=1400px') {
+    font-size: 26rem;
+  }
+
+  @include media('<=1200px') {
+    font-size: 22rem;
+  }
+
+  @include media('<=tablet') {
+    font-size: 16rem;
+  }
+
+  @include media('<=phone') {
+    font-size: 10rem;
+    line-height: 0.9;
+  }
+}
+
+%title-160 {
+  font-family: $font-bebas;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+
+  @include media('<=tablet') {
+    font-size: 10rem;
+  }
+
+  @include media('<=phone') {
+    font-size: 8rem;
+  }
+}
+
+// Description Sizes
+%description-32 {
+  font-family: $font-opensauce;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.4;
+
+  @include media('<=phone') {
+    font-size: 2.4rem;
+  }
+}
+
+%description-16 {
+  font-family: $font-opensauce;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+
+  @include media('<=phone') {
+    font-size: 1.4rem;
+  }
+}
+
+%description-12 {
+  font-family: $font-opensauce;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+}

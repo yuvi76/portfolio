@@ -1,0 +1,16 @@
+// Link Styles
+@use '../utils/variables' as *;
+
+%links {
+  a {
+    color: $col-gray;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    @media (any-pointer: fine) {
+      &:hover {
+        color: $col-orange;
+      }
+    }
+  }
+}

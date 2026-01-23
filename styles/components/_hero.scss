@@ -1,0 +1,196 @@
+// Hero Section
+@use '../utils/variables' as *;
+@use '../utils/breakpoints' as *;
+@use '../shared/typography' as *;
+@use '../shared/layout' as *;
+
+.home__hero {
+  margin-bottom: 9.6rem;
+  @extend %padding-home;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+
+  @include media('<=tablet') {
+    min-height: 70vh;
+  }
+
+  .hero {
+    &__title {
+      line-height: 0.9;
+      color: $col-boulder;
+      width: 100%;
+
+      h1 {
+        &.desktop {
+          @include media('<=phone') {
+            display: none;
+          }
+        }
+
+        &.mobile {
+          @extend %title-328;
+          letter-spacing: -0.05em;
+          word-wrap: break-word;
+
+          @include media('>phone') {
+            display: none;
+          }
+        }
+      }
+
+      .hero__hover {
+        transition: color 0.2s;
+        cursor: default;
+
+        @media (any-pointer: fine) {
+          &:hover {
+            color: $col-gray;
+          }
+        }
+      }
+
+      &__left,
+      &__right {
+        display: inline-block;
+        @extend %title-328;
+        letter-spacing: -0.015em;
+        will-change: transform;
+        transition: transform 0.1s ease-out;
+        white-space: nowrap;
+      }
+
+      &__dash {
+        display: inline-block;
+        @extend %title-328;
+        letter-spacing: -0.015em;
+        transform: scaleX(1);
+        will-change: transform;
+        margin: 0 2rem;
+        transition: transform 0.3s ease;
+        flex-shrink: 0;
+
+        @include media('<=1200px') {
+          margin: 0 1.5rem;
+        }
+
+        @include media('<=tablet') {
+          margin: 0 1rem;
+        }
+
+        @include media('<=phone') {
+          margin: 0 0.5rem;
+        }
+
+        &.desktop {
+          @include media('<=tablet') {
+            display: none;
+          }
+        }
+
+        &.tablet {
+          @include media('>tablet') {
+            display: none;
+          }
+        }
+      }
+
+      &__top {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 3rem;
+        align-items: center;
+
+        @include media('<=tablet') {
+          padding-right: 2rem;
+        }
+
+        @include media('<=phone') {
+          padding-right: 1rem;
+        }
+
+        &.overflow {
+          overflow: hidden;
+        }
+      }
+
+      &__bottom {
+        width: 100%;
+        justify-content: space-between;
+
+        @include media('>tablet') {
+          display: flex;
+        }
+
+        &.overflow {
+          display: inline-flex;
+          width: 100%;
+          overflow: hidden;
+        }
+
+        .bottom__left {
+          @extend %title-328;
+          letter-spacing: -0.015em;
+          flex-shrink: 0;
+        }
+
+        .bottom__right {
+          @extend %description-16;
+          position: relative;
+          z-index: 1;
+          max-width: 32.5rem;
+          width: 100%;
+          padding: 2rem 0 5rem;
+          display: flex;
+          flex-direction: column;
+
+          @include media('<=tablet') {
+            max-width: 55rem;
+            padding-bottom: 0;
+          }
+
+          @include media('<=phone') {
+            max-width: 25.5rem;
+            margin-left: auto;
+          }
+        }
+      }
+    }
+
+    &__paragraph {
+      color: $col-gray;
+
+      span {
+        text-transform: uppercase;
+      }
+
+      .first-word {
+        @extend %description-12;
+        color: $col-boulder;
+      }
+    }
+
+    &__scroll {
+      margin-top: auto;
+      color: $col-boulder;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+
+      @include media('<=tablet') {
+        display: none;
+      }
+
+      p {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .c-infinite {
+        flex-shrink: 0;
+      }
+    }
+  }
+}

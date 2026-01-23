@@ -1,0 +1,18 @@
+// Layout Utilities
+@use '../utils/breakpoints' as *;
+
+%padding-home {
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+  @include media('<=phone') {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+}
+
+%max-width-container {
+  max-width: 144rem;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,30 @@
+// Main Stylesheet - Import Order Matters
+// Using @use instead of deprecated @import (Dart Sass 3.0.0+)
+
+// 1. Utils (Variables & Mixins First)
+@use 'utils/variables' as *;
+@use 'utils/breakpoints' as *;
+
+// 2. Base Styles
+@use 'base/reset' as *;
+@use 'base/fonts' as *;
+@use 'base/globals' as *;
+
+// 3. Shared Utilities
+@use 'shared/typography' as *;
+@use 'shared/links' as *;
+@use 'shared/layout' as *;
+
+// 4. Components
+@use 'components/animations' as *;
+@use 'components/button' as *;
+@use 'components/navigation' as *;
+@use 'components/hero' as *;
+@use 'components/projects' as *;
+@use 'components/content' as *;
+@use 'components/experience-education' as *;
+@use 'components/contact' as *;
+@use 'components/footer' as *;
+
+// 5. Pages
+@use 'pages/home' as *;

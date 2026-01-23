@@ -1,0 +1,69 @@
+// Global Styles
+@use '../utils/variables' as *;
+@use '../utils/breakpoints' as *;
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+  overscroll-behavior: none;
+
+  @include media('<=phone') {
+    font-size: calc(100vw / 550 * 10);
+  }
+}
+
+body {
+  font-family: $font-opensauce;
+  font-weight: 500;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  background: $col-black;
+  color: $col-gray;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  &.loaded {
+    opacity: 1;
+  }
+}
+
+// Custom Scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $col-black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+
+  &:hover {
+    background: #555;
+  }
+}
+
+// Flash Animation (for time display)
+.flash {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+// Visibility helpers
+.hide-mobile {
+  @include media('<=phone') {
+    display: none !important;
+  }
+}
+
+.hide-desktop {
+  @include media('>phone') {
+    display: none !important;
+  }
+}

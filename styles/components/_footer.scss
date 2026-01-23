@@ -1,0 +1,156 @@
+// Footer Component
+@use '../utils/variables' as *;
+@use '../utils/breakpoints' as *;
+@use '../shared/links' as *;
+
+.home__footer {
+  justify-content: center;
+  position: relative;
+  font-weight: 400;
+  font-size: 1.6rem;
+
+  @include media('>tablet') {
+    display: flex;
+  }
+
+  @include media('<=tablet') {
+    margin: auto;
+    max-width: 40rem;
+    width: 100%;
+  }
+
+  @include media('<=phone') {
+    max-width: 25.5rem;
+    width: 100%;
+  }
+
+  &__left {
+    display: flex;
+    font-family: $font-opensauce;
+
+    @include media('>tablet') {
+      left: 2.4rem;
+      position: absolute;
+      right: 0;
+      top: 1rem;
+    }
+
+    .place {
+      color: $col-boulder;
+      margin-right: 1.4rem;
+    }
+
+    .time {
+      position: relative;
+      display: flex;
+
+      @include media('<=tablet') {
+        margin-bottom: 2.4rem;
+      }
+    }
+  }
+
+  &__right {
+    @extend %links;
+
+    @include media('>tablet') {
+      right: 2.4rem;
+      position: absolute;
+      top: 1rem;
+    }
+
+    @include media('<=tablet') {
+      text-align: center;
+      margin-top: 2.4rem;
+    }
+  }
+
+  &__center {
+    .footer__links {
+      @include media('>tablet') {
+        display: flex;
+      }
+
+      align-items: center;
+
+      @include media('<=tablet') {
+        margin-bottom: 4.8rem;
+        width: 100%;
+      }
+
+      @include media('<=phone') {
+        margin-bottom: 3.2rem;
+      }
+
+      .link__flex {
+        display: flex;
+        margin-left: auto;
+
+        @include media('<=tablet') {
+          max-width: 40rem;
+          width: 100%;
+          justify-content: center;
+        }
+
+        @include media('<=phone') {
+          max-width: 25.5rem;
+          width: 100%;
+        }
+
+        &__inner {
+          display: flex;
+
+          .c-button {
+            @include media('<=tablet') {
+              &:first-of-type {
+                margin-right: 0.8rem;
+              }
+            }
+          }
+
+          &.second {
+            .c-button {
+              @include media('<=tablet') {
+                &:first-of-type {
+                  margin-right: 0;
+                }
+
+                &:last-of-type {
+                  margin-right: 0.8rem;
+                }
+              }
+            }
+          }
+
+          @include media('>tablet') {
+            &:last-of-type {
+              margin-left: 0.8rem;
+            }
+          }
+        }
+
+        @include media('<=tablet') {
+          &__inner {
+            &.second {
+              margin-top: 1.6rem;
+              flex-direction: row-reverse;
+            }
+          }
+        }
+      }
+
+      .c-button {
+        @include media('>tablet') {
+          &:not(:last-of-type) {
+            margin-right: 0.8rem;
+          }
+        }
+
+        @include media('<=phone') {
+          font-size: 1.1rem;
+          padding: 0.4rem 0.7rem;
+        }
+      }
+    }
+  }
+}

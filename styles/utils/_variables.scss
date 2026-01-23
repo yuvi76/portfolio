@@ -1,0 +1,21 @@
+// Color Palette
+$col-black: #111111;
+$col-white: #ffffff;
+$col-orange: #f59e0b;
+$col-boulder: #777777;
+$col-gray: #aaaaaa;
+
+// Typography
+$font-bebas: 'Bebas Neue', sans-serif;
+$font-opensauce: 'Open Sauce', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+// Gradients
+$gradient: linear-gradient(
+  90deg,
+  rgba(233, 227, 198, 0.5) 0%,
+  rgba(233, 198, 217, 0.5) 100%
+);
+
+// Transitions
+$ease-smooth: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$ease-out: cubic-bezier(0.19, 1, 0.22, 1);

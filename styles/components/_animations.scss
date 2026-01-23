@@ -1,0 +1,93 @@
+// Animation Utilities
+@use '../utils/variables' as *;
+
+// Infinite Scroll Arrow
+.c-infinite {
+  .c-link {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    &__inner {
+      display: flex;
+      transform: translateY(-100%);
+      animation: infiniteArrow 1s infinite $ease-smooth;
+
+      > span {
+        white-space: nowrap;
+      }
+    }
+
+    &__animated {
+      white-space: nowrap;
+      position: absolute;
+      top: 100%;
+    }
+  }
+
+  @keyframes infiniteArrow {
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+
+// Fade In Animation
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+[data-fade-in] {
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+// Slide Up Text Hover
+.slide-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transform: translateY(100%);
+  transition: transform 275ms ease;
+  display: none;
+
+  @media (any-pointer: fine) {
+    display: inline-block;
+  }
+
+  &::before {
+    display: inline-block;
+    content: attr(data-content);
+    white-space: nowrap;
+    color: $col-orange;
+    transform: translateY(-100%);
+    transition: transform 275ms ease;
+  }
+}
+
+// Line Expand Animation
+@keyframes lineExpand {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+// Stagger Animation Helper
+@for $i from 1 through 20 {
+  [data-stagger="#{$i}"] {
+    animation-delay: #{$i * 0.1}s;
+  }
+}

@@ -1,0 +1,19 @@
+// Font Imports
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+// Open Sauce font face (fallback to system fonts)
+@font-face {
+  font-family: 'Open Sauce';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local('Open Sauce'), local('OpenSauce-Regular');
+}
+
+@font-face {
+  font-family: 'Open Sauce';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: local('Open Sauce'), local('OpenSauce-Medium');
+}

@@ -1,0 +1,56 @@
+// Content Sections (Community Contributions, etc.)
+@use '../utils/variables' as *;
+@use '../utils/breakpoints' as *;
+@use '../shared/typography' as *;
+@use '../shared/layout' as *;
+@use '../shared/links' as *;
+
+.home__content {
+  padding-top: 24rem;
+  padding-bottom: 24rem;
+  @extend %padding-home;
+
+  @include media('<=phone') {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  @include media('>tablet') {
+    text-align: center;
+  }
+
+  &__title {
+    @extend %description-12;
+    text-transform: uppercase;
+    color: $col-boulder;
+    margin-bottom: 2.4rem;
+  }
+
+  &__desc {
+    @extend %description-32;
+    max-width: 95rem;
+    width: 100%;
+    @extend %links;
+
+    @include media('>tablet') {
+      margin: 0 auto;
+    }
+
+    .contact-scroll {
+      color: $col-boulder;
+      transition: color 0.3s;
+      background: transparent;
+      border: 0;
+      padding: 0;
+      @extend %description-32;
+      font-weight: 500;
+      cursor: pointer;
+
+      @media (any-pointer: fine) {
+        &:hover {
+          color: $col-orange;
+        }
+      }
+    }
+  }
+}
