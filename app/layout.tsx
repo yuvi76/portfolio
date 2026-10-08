@@ -30,7 +30,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="icon" href="/portfolio/favicon/favicon.ico" />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/favicon/favicon.ico`} />
       </head>
       <body className="loaded">
         {children}
